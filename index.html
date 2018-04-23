@@ -1,58 +1,53 @@
 <!DOCTYPE html>
 <html>
-<title>Home</title>
-  <link rel="icon" type="image/png" href="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/house-icon.png"/>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif }
-.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
-.w3-third img:hover{opacity: 1}
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
 </style>
-<body class=" w3-content" style="max-width:1600px" background="https://i.pinimg.com/originals/ab/fc/bb/abfcbb5e31251094e1c4467f7a6dd6d5.jpg">
+<body>
 
 <!-- Sidebar/menu -->
-<nav class=" w3-sidebar w3-bar-block w3-cyan w3-dropdown-content w3-animate-left w3-text-pale-yellow w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <h3 class=" w3-center">
-  <img src="https://www.erimedrek.com/wp-content/uploads/2016/02/editing-pen.png" width="150" height="50">
-  <br><b>My diary</b></h3>
-  <div class="w3-padding-32">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
-  <a href="#diary" onclick="w3_close()" class="w3-bar-item w3-button">DIARY</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">IMAGE</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a> 
-  <div class="w3-dropdown-hover w3-center">
-    <button onclick="w3_close()" class="w3-button w3-center">ABOUT US</button>
-    <div class="w3-dropdown-content w3-bar-block">
-      <a href="https://chaijoker.github.io/diaryPSU/pongsatorn" onclick="w3_close()" class="w3-bar-item w3-button">Pongsatorn</a>
-      <a href="https://chaijoker.github.io/diaryPSU/ruslan" onclick="w3_close()" class="w3-bar-item w3-button">Ruslan</a>
-    </div>
-    </div>
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>My diary</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">Memory for you</span>
-  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-white w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Memory for you</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
 
-  <!-- Push down content on small screens --> 
-<div class="w3-hide-large" style="margin-top:83px"></div>
-
-<!--Diary content-->
-<div class="w3-container w3-light-blue" >
-<h1 id="diary" class="w3-center"><b>My Diary</b></h1>
-</div>
-<div class="w3-row w3-border  w3-sand">
+  <!-- Header -->
+  <div class="w3-container w3-light-blue" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Diray</b></h1>
+    <hr style="width:1460px;border:5px solid black" class="w3-round">
+  </div>
+  
+  <div class="w3-row w3-border  w3-sand">
   <img src="https://www.w3.org/Graphics/PNG/alphatest.png" width="350" height="200">
 
 </div>
@@ -86,8 +81,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif }
 </div>
 </div>
 
-
-  <!-- Pagination -->
+ <!-- Pagination -->
   <div class="w3-center w3-padding-32">
     <div class="w3-bar">
       <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
@@ -98,22 +92,18 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif }
       <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
     </div>
   </div>
-  
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
 
-  <!-- Contact section -->
-  <div class="w3-container w3-white w3-center w3-text-black " id="contact">
-  <h1><b>Contact Us</b></h1>
-    <div class="w3-row-padding">
+  <!-- Contect -->
+  <div class="w3-container w3-light-blue" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Contect US.</b></h1>
+    <hr style="width:1460px;border:5px solid black" class="w3-round">
+  </div>
+ 
+
+  <!-- The Team -->
+  <div class="w3-row-padding">
     <div class="w3-col m4 w3-margin-bottom">
-      <div class="">
+      <div class="w3-light-grey">
         <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/29572831_1736094406434273_6856529815376260599_n.jpg?_nc_cat=0&oh=9d015cbb59cc6b7a0a266c3e39472fa3&oe=5B5AD840" alt="Chai" style="width:100%">
         <div class="w3-container">
           <h3>Pongsatorn Hoejaturapitaporn</h3>
@@ -127,16 +117,20 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif }
         <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/23167811_836401833193923_7886783270788196391_n.jpg?_nc_cat=0&oh=94e5b592e7847e44df5cb41ac152f9a9&oe=5B54A167" alt="Lan" style="width:100%">
         <div class="w3-container">
           <h3>Ruslan Bensa-id</h3>
-      	  <h5>facebook : S'Lan Ruslan</h5>
+          <h5>Facebook : S'Lan Ruslan</h5>
           <h5>E-mail : ruslanbensaid6602@gmail.com</h5>
         </div>
       </div>
     </div>
   </div>
-  </div>
+
+  
+  <!-- Contact -->
+  
 
 <!-- End page content -->
 </div>
+
 
 <script>
 // Script to open and close sidebar
@@ -149,6 +143,7 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
 }
+
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -156,11 +151,7 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
-}
 </script>
-
-
 
 </body>
 </html>
