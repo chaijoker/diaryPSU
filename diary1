@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="daily" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+height: 100%;
+color: #777;
+line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1{
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+background-image: url('https://i.ytimg.com/vi/eUsNoCicqqk/maxresdefault.jpg');
+min-height: 100%;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+.bgimg-1, .bgimg-2, .bgimg-3 {
+background-attachment: scroll;
+}
+}
+</style>
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="https://chaijoker.github.io/diaryPSU/" class="w3-bar-item w3-button">HOME</a>
+    
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    
+  </div>
+</div>
+<body>
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Norsortor<span class="w3-hide-small">  5th</span> Cam</span>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="Norsortor">
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+<h3 class="w3-center">หยาดเหงื่อลูกผู้ชาย</h3>
+<p>แน่นอนครับความฝันของแต่ละคนมีความแตกต่างกันไป แต่หนึ่งในความใฝ่ฝันของผมคือการที่ได้มีดาวสักดวงมาประดับบ่าสักดวงและเเน่นอนหนทางเดียวที่ยังคงเหลืออยู่นั้นก็คือการที่ผมต้องเรียนให้จบนักศึกษาวิชาทหารชั้นปีที่ 5 ซึ่งจากการฟังจากปากใครหลายๆคน ผมบอกตามตรงว่าตอนนั้นกลัวการเข้าค่ายครั้งนี้มาก เพราะโดนรุ่นพี่จากชมรมเป่าหูมาว่า น่ากลัวมากน่ะ หนักมากน่ะ มีถึงแม้กระทั้งเป่าหูเรื่องเหนือธรรมชาติจนทำให้ผมกลัวขี้หดตดายหมดเลย เเต่เเล้ววันที่ 6 ก.พ ผมเลือกที่จะแบกเป้สภายปืนออกจากบ้านเเละเเล้วเรื่องราวครั้งนี้ก็เกิดขึ้น</p>
+
+<p>พวกเราออกเดินทางเวลา 17.30 น. อันที่จริงรถไฟช้าจากเวลาที่กำหนดด้วยเหตุขัดข้องจากต้นทางคือ จ.นราธิวาส ด้วยพวกเราเคยมีประสบการณ์การขึ้นรถไฟมาก่อนจากตอนเข้าค่าย นศท.ชั้นปีที่4 ในปีที่เเล้วทำให้พวกเราเตรียมตัวถูกในการขึ้นรถไฟหรือแม้กระทั้งเตรียมของไปเข้าค่ายทำให้ในครั้งนี้ไม่มีสัมภาระอะไรมากมายเดินทางสะดวกคล่องตัวมากยิ่งขึ้น เราถึง จ.กาญจนบุรี่เวลาประมาณ 08.30 ของวันรุ่งขึ้นเเละถึงสถานที่ฝึกประมาณ 13.00 ของวันดังกล่าว หน้าตาของเพื่อนร่วมชะตากรรมกว่า 450 คน ไม่ค่อยสู้ดี เพราะร้ว่าทุกคนจะต้องเผชิญกับอะไรบ้าง แต่ละคนหน้าซีดเป็นไก่ต้มกันเลยทีเดียวเชียวในระหว่างการฝึกกว่า 7 วันพวกเราผ่านการฝึกมาอย่างเข้มข้น หล่อหลอมคนกว่า 450 คนให้กลายเป็นหนึ่งเดียวสมกับการขณานนามว่า "นายร้อยเขาชนไก่"</p>
+</div>
+</div>
+
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+<h3 class="w3-center">ภาพความประทับใจ</h3>
+<p class="w3-center"><em>ภาพแห่งความภาคภูมิใจก่อนจะมีดาวประดับบ่า<br>Let check it out</em></p><br>
+
+<!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+<div class="w3-row-padding w3-center">
+<div class="w3-col m3">
+
+</div>
+
+<div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="https://scontent.fbkk5-2.fna.fbcdn.net/v/t1.0-9/27459883_884812848352821_1236355666181653367_n.jpg?_nc_cat=0&oh=b29ea18600c5cb0c1e62e90495120cdf&oe=5B9AC617" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ตั๊วรถไฟไปกาญจนบุรี">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://scontent.fbkk5-2.fna.fbcdn.net/v/t1.0-9/27655093_885256098308496_7071823110306989975_n.jpg?_nc_cat=0&oh=35a749c30c946c2c3834c8c08530780e&oe=5B54F386" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Our hair style">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://scontent.fbkk5-2.fna.fbcdn.net/v/t1.0-9/27973365_888083004692472_1148479980389673922_n.jpg?_nc_cat=0&oh=d8302758964db4791a74d198f4c6ec78&oe=5B602D98" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Walk to the cam">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://scontent.fbkk5-2.fna.fbcdn.net/v/t1.0-9/27867657_888165594684213_5407560178675691873_n.jpg?_nc_cat=0&oh=8959f69695ba487cc9cf65e66c07b7b8&oe=5B4F2554" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My costume">
+    </div>
+  </div>
+
+  
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+<span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+<img id="img01" class="w3-image">
+<p id="caption" class="w3-opacity w3-large"></p>
+</div>
+</div>
+
+
+
+
+<!-- Add Google Maps -->
+<script>
+
+// Modal Image Gallery
+function onClick(element) {
+document.getElementById("img01").src = element.src;
+document.getElementById("modal01").style.display = "block";
+var captionText = document.getElementById("caption");
+captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+var navbar = document.getElementById("myNavbar");
+if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+} else {
+navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+}
+}
+
+</script>
+
+
+</body>
+</html>
