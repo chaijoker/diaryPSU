@@ -2,7 +2,7 @@
 <html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
-<meta name="R2M" content="width=device-width, initial-scale=1">
+<meta name="daily" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -17,70 +17,49 @@ color: #777;
 line-height: 1.8;
 }
 
-/* Create a Parallax Effect */
-.bgimg-1{
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-background-image: url('https://scontent.fbkk14-1.fna.fbcdn.net/v/t31.0-8/23456434_1580109708699411_8473779257438349721_o.jpg?_nc_cat=0&oh=373d6ece61c8136dc225658c7956adc9&oe=5B648114');
-min-height: 100%;
-}
-
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-.bgimg-1, .bgimg-2, .bgimg-3 {
-background-attachment: scroll;
-}
-}
 </style>
-<body>
-
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="https://chaijoker.github.io/diaryPSU/" class="w3-bar-item w3-button">HOME</a>
-    
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container w3-center">
+  	<img src="https://www.erimedrek.com/wp-content/uploads/2016/02/editing-pen.png" alt="logo" style="width:75%">
+    <h3 class="w3-padding-64"><b>My diary</b></h3>
   </div>
+  <div class="w3-bar-block">
+    <a href="https://chaijoker.github.io/diaryPSU/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Diary</a>  
+    <a href="#Contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+ 	 <div class="w3-dropdown-hover">
+		<a href="#About US" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About US</a> 
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="https://chaijoker.github.io/diaryPSU/pongsatorn" class="w3-bar-item w3-button">Pongsatorn</a>
+      <a href="https://chaijoker.github.io/diaryPSU/ruslan" class="w3-bar-item w3-button">Ruslan</a>
+    </div>
+  </div>
+</div>
+  </div>
+</nav>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    
+
   </div>
 </div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-<div class="w3-display-middle" style="white-space:nowrap;">
-<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ประสบการณ์ <span class="w3-hide-small">ที่</span> ไม่มีขาย</span>
-</div>
+<body>
+<div class="w3-main" style="margin-left:300px">
+<div class="w3-container w3-center">
+  <br>
+  <br>
+	<img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t31.0-8/23456434_1580109708699411_8473779257438349721_o.jpg?_nc_cat=0&oh=373d6ece61c8136dc225658c7956adc9&oe=5B648114" width="525" height="300">
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
+<div class="w3-content w3-container w3-padding-64 w3-text-black">
 <h3 class="w3-center">ออกล่าหาประสบการณ์</h3>
 <p>แน่นอนครับว่าทุกอย่างบนโลกนี้ไม่ใช่ทุกสิ่งหรอกที่เราสามารถซื้อขายกันได้ และประสบการณ์คือหนึ่งในสิ่งที่เราต้องออกหามันเองไม่มีขายใน 7-11 เหมือสินค้าทั่วไป ผมมีความคิดที่ว่า ประสบการณ์จะหล่อหลอมเราให้สามารถก้าวข้ามขีดความสามารถของตัวเองไปได้อีกหนึ่งก้าว และประสบณ์การนี่แหละครับที่จะผลักดันผมให้ไปถึงฝั่งฝันที่ผมวางไว้ R2M เป็นกิจกรรมที่ดีอีกกิจกรรมหนึ่งที่มอบประสบการณ์ที่ดีในการทำงานให้กับผม ให้เด็กที่ไม่รู้จะเริ่มธุรกิจอย่างไรสามารถรู้เเนวคิด การวางแผน การทำPDCAs ทำให้ผมมองภาพารทำธุรกิจได้อย่างทะลุปรุโปร่ง สำหรับประสบการณ์ในครั้งนี้เริ่มจากที่ผมเป็นตัวกลางในการหาทีมที่เหมาะสมมาร่วมเดินในเส้นทางเดียวกับผม ค่อนข้างยากมากครับเพราะกว่าจะคว้าเเต่ละคนมารวมทีมกันได้ยิ่งกว่าจับปูใส่กระด้งเสียอีก เเต่สุดท้ายทีมของเราก็เป็นทีมที่ลงตัวมากๆ มีทั้งนักการตลาด นักวางแผน วิศวกร รวมถึงแผนการเงิน</p>
-<div class="w3-row">
-<div class="w3-col m6 w3-center w3-padding-large">
-<p><b><i class="fa fa-user w3-margin-right"></i>รางวัลที่ประทับใจ</b></p><br>
-<img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/23517889_1581323931911322_4264673192103725668_n.jpg?_nc_cat=0&oh=e8cca44c7f87491ca5ec20e479ef1e59&oe=5B5D96A4" class="w3-round w3-image" alt="สวนสายน้ำ" width="500" height="333">
-</div>
-
-<!-- Hide this text on small devices -->
-<div class="w3-col m6 w3-hide-small w3-padding-large">
 <p>เราทุกคนเริ่มต้นจากศูนย์ คือก่อนหน้านี้เราไม่เคยผ่านเเคมป์อย่างนี้มาก่อนเลยครับ เเต่เเล้วในบูธแคมป์แรกเราก็ผ่านมาได้อย่างฉลุยถึงแม้เราจะเป็นทีมน้องใหม่ที่ต้องฝ่าฟันกับทีมรุ่นพี่ที่มากประสบการณ์ แต่ไม่อยากจะอวดว่าในบูธนี้เราเข้าเป็นทีมที่ 2 ครับ (เก่งใช่ไหมล่า) แต่บูธเเคมป์ต่อไปนี้สิครับ สกัดเทพเลยก็ว่าได้ยากเเละหินมากครับ เราต้องใช้เวลาในการเตรียมการพรีเซ้นกว่า 2 สัปดาห์ อดหลับอดนอนเพื่อฟันฝ่าคือการได้ไประดับประเทศ เเต่ก็อย่างว่าแหละครับ หนทางไม่ได้ราบรื่นโปรยด้วยกลีบกุหลาบเสมอไป ทีมเรานื่องจากไม่มีประสบกาณ์มาก่อนทำให้เราพลาดอย่างน่าเสียดายในรอบระดับภูมิภาค แต่กรรมการหลายท่านยังชมเลยครับว่าทีมนี้เป็นทีมที่น่ากลัวมากเนื่องจากเป็นทีมน้องใหม่ทั้งทีมเเต่สามารถดึงศักยภาพของเเต่ละคนมาได้อย่างเต็มที่และในสิ่งที่เราผิดพลาดกรรมการก็บอกด้วยว่ามันต้องใช้ประสบการณ์มากจริงๆถึงจะสามารถเข้าใจในเรื่องนั้นได้ แต่ก็ไม่เป็นไรครับ After success is mistake ผมจะไม่ยอมทิ้งความฝันของผมให้ล่องลอยไปแน่ ในปีหน้า ผมจะมาเขียนไดอารี่ใหม่ พร้อมกับด้วยรางวัลระดับประเทศให้ได้ รอติดตามนะครับ</p>
 </div>
 </div>
@@ -88,9 +67,10 @@ background-attachment: scroll;
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-<h3 class="w3-center">ภาพความประทับใจ</h3>
-<p class="w3-center"><em>นี่เป็นภาพความประทับใจในการเข้าค่ายครั้งนี้<br>Let check it out</em></p><br>
+
+<div class="w3-content w3-container w3-padding-64 w3-main" style="margin-left:450px ">
+<h3 class="w3-center w3-text-black">ภาพความประทับใจ</h3>
+<p class="w3-center w3-text-black"><br>Let check it out</em></p><br>
 
 <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
 <div class="w3-row-padding w3-center">
@@ -98,22 +78,25 @@ background-attachment: scroll;
 
 </div>
 
-<div class="w3-col m3">
-<img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/29425246_1719770654733315_6576610900135406703_n.jpg?_nc_cat=0&oh=4d2163d7825d14112dfd1a12073764c9&oe=5B5FBC71" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ฝึกซ้อมการพูด">
-</div>
+<div class="w3-row-padding w3-center" >
+    <div class="w3-col m3">
+      <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t31.0-8/26060356_1625421624168219_6306852180625830871_o.jpg?_nc_cat=0&oh=873f66bdf9cf51ee0d7e7eaf8838ef64&oe=5B9D060E" style="width:105%" onclick="onClick(this)" class="w3-hover-opacity" alt="เสนาเกี่ยวกับการตลาด">
+    </div>
 
-<div class="w3-col m3">
-<img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t31.0-8/25790903_1624391654271216_3325841217511396794_o.jpg?_nc_cat=0&oh=d595d7629558f2cb3d525e23734bf52c&oe=5B6761CD" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="รับประทานอาหารเย็น">
-</div>
+    <div class="w3-col m3">
+      <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t31.0-8/27501033_1669525786424469_7759336768288220665_o.jpg?_nc_cat=0&oh=d931f9abce3f6b57afaec3cd2183f1e6&oe=5B649573" style="width:105%" onclick="onClick(this)" class="w3-hover-opacity" alt="กำลังพีเซ้นงาน">
+    </div>
 
-<div class="w3-col m3">
-<img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t31.0-8/27501033_1669525786424469_7759336768288220665_o.jpg?_nc_cat=0&oh=d931f9abce3f6b57afaec3cd2183f1e6&oe=5B649573" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="กำลังพีเซ้น">
-</div>
-</div>
+    <div class="w3-col m3">
+      <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-0/p206x206/25591831_1805283949545393_3095517187140434112_n.jpg?_nc_cat=0&oh=888433afe53579adae49be9868368d7b&oe=5B66A1D2" style="width:105%;max-width:200px" onclick="onClick(this)" class="w3-hover-opacity" alt="กำลังจะออกเดินทางไปล่องแก่ง">
+    </div>
 
-<div class="w3-padding w3-center ">
-<div class="w3-col m3">
-<img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/29356797_1719770504733330_1331800811245523406_n.jpg?_nc_cat=0&oh=8d1acf25835a093bb959f3fcd784dd18&oe=5B6018C3" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="เสวนาเกี่ยวกับนวัตกรรม">
+    <div class="w3-col m3">
+      <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/29425246_1719770654733315_6576610900135406703_n.jpg?_nc_cat=0&oh=4d2163d7825d14112dfd1a12073764c9&oe=5B5FBC71" style="width:105%" onclick="onClick(this)" class="w3-hover-opacity" alt="ฝุกการพูดพรีเซ้น">
+    </div>
+  </div>
+
+  
 </div>
 
 
@@ -150,9 +133,7 @@ navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
 navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
 }
 }
-
 </script>
-
-
+</div>
 </body>
 </html>
