@@ -17,64 +17,49 @@ color: #777;
 line-height: 1.8;
 }
 
-/* Create a Parallax Effect */
-.bgimg-1{
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-background-image: url('https://i.ytimg.com/vi/eUsNoCicqqk/maxresdefault.jpg');
-min-height: 100%;
-}
-
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-.bgimg-1, .bgimg-2, .bgimg-3 {
-background-attachment: scroll;
-}
-}
 </style>
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="https://chaijoker.github.io/diaryPSU/" class="w3-bar-item w3-button">HOME</a>
-    
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container w3-center">
+  	<img src="https://www.erimedrek.com/wp-content/uploads/2016/02/editing-pen.png" alt="logo" style="width:75%">
+    <h3 class="w3-padding-64"><b>My diary</b></h3>
   </div>
+  <div class="w3-bar-block">
+    <a href="https://chaijoker.github.io/diaryPSU/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Diary</a>  
+    <a href="#Contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+ 	 <div class="w3-dropdown-hover">
+		<a href="#About US" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About US</a> 
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="https://chaijoker.github.io/diaryPSU/pongsatorn" class="w3-bar-item w3-button">Pongsatorn</a>
+      <a href="https://chaijoker.github.io/diaryPSU/ruslan" class="w3-bar-item w3-button">Ruslan</a>
+    </div>
+  </div>
+</div>
+  </div>
+</nav>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    
+
   </div>
 </div>
 <body>
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Norsortor<span class="w3-hide-small">  5th</span> Cam</span>
-  </div>
-</div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="Norsortor">
+<div class="w3-main" style="margin-left:300px">
+<div class="w3-container w3-center">
+  <br>
+  <br>
+	<img src="https://i.ytimg.com/vi/eUsNoCicqqk/maxresdefault.jpg" width="525" height="300">
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
+<div class="w3-content w3-container w3-padding-64 w3-text-black">
 <h3 class="w3-center">หยาดเหงื่อลูกผู้ชาย</h3>
 <p>แน่นอนครับความฝันของแต่ละคนมีความแตกต่างกันไป แต่หนึ่งในความใฝ่ฝันของผมคือการที่ได้มีดาวสักดวงมาประดับบ่าสักดวงและเเน่นอนหนทางเดียวที่ยังคงเหลืออยู่นั้นก็คือการที่ผมต้องเรียนให้จบนักศึกษาวิชาทหารชั้นปีที่ 5 ซึ่งจากการฟังจากปากใครหลายๆคน ผมบอกตามตรงว่าตอนนั้นกลัวการเข้าค่ายครั้งนี้มาก เพราะโดนรุ่นพี่จากชมรมเป่าหูมาว่า น่ากลัวมากน่ะ หนักมากนะ มีถึงแม้กระทั้งเป่าหูเรื่องเหนือธรรมชาติจนทำให้ผมกลัวขี้หดตดหายหมดเลย เเต่เเล้ววันที่ 6 ก.พ ผมเลือกที่จะแบกเป้สะพายปืนออกจากบ้านเเละเเล้วเรื่องราวครั้งนี้ก็เกิดขึ้น</p>
-
 <p>พวกเราออกเดินทางเวลา 17.30 น. อันที่จริงรถไฟช้าจากเวลาที่กำหนดด้วยเหตุขัดข้องจากต้นทางคือ จ.นราธิวาส ด้วยพวกเราเคยมีประสบการณ์การขึ้นรถไฟมาก่อนจากตอนเข้าค่าย นศท.ชั้นปีที่4 ในปีที่เเล้วทำให้พวกเราเตรียมตัวถูกในการขึ้นรถไฟหรือแม้กระทั้งเตรียมของไปเข้าค่ายทำให้ในครั้งนี้ไม่มีสัมภาระอะไรมากมายเดินทางสะดวกคล่องตัวมากยิ่งขึ้น เราถึง จ.กาญจนบุรี่เวลาประมาณ 08.30 ของวันรุ่งขึ้นเเละถึงสถานที่ฝึกประมาณ 13.00 ของวันดังกล่าว หน้าตาของเพื่อนร่วมชะตากรรมกว่า 450 คน ไม่ค่อยสู้ดี เพราะรู้ว่าทุกคนจะต้องเผชิญกับอะไรบ้าง แต่ละคนหน้าซีดเป็นไก่ต้มกันเลยทีเดียวเชียวในระหว่างการฝึกกว่า 7 วันพวกเราผ่านการฝึกมาอย่างเข้มข้น หล่อหลอมคนกว่า 450 คนให้กลายเป็นหนึ่งเดียวสมกับการขนานนามว่า "นายร้อยเขาชนไก่"</p>
 </div>
 </div>
@@ -82,9 +67,10 @@ background-attachment: scroll;
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-<h3 class="w3-center">ภาพความประทับใจ</h3>
-<p class="w3-center"><em>ภาพแห่งความภาคภูมิใจก่อนจะมีดาวประดับบ่า<br>Let check it out</em></p><br>
+
+<div class="w3-content w3-container w3-padding-64 w3-main" style="margin-left:400px ">
+<h3 class="w3-center w3-text-black">ภาพความประทับใจ</h3>
+<p class="w3-center w3-text-black"><br>Let check it out</em></p><br>
 
 <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
 <div class="w3-row-padding w3-center">
@@ -112,6 +98,7 @@ background-attachment: scroll;
 
   
 </div>
+
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
@@ -146,9 +133,7 @@ navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
 navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
 }
 }
-
 </script>
-
-
+</div>
 </body>
 </html>
